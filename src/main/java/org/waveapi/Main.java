@@ -99,6 +99,7 @@ public class Main {
     }
 
     public static Set<String> buildFeatures(File dir) throws IOException, InterruptedException, ClassNotFoundException {
+
         Set<String> features = new HashSet<>();
 
         for (File f : dir.listFiles()) {
