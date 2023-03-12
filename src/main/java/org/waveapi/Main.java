@@ -35,7 +35,7 @@ public class Main {
 
         Map<String, Object> impls = (Map<String, Object>) file.get("implementations");
 
-        Map<String, Set<String>> implFeatures = new HashMap<>();
+        Map<String, Set<String>> implFeatures = new LinkedHashMap<>();
 
         for (Map.Entry<String, Object> impl : impls.entrySet()) {
             Map<String, Object> sets = (Map<String, Object>) impl.getValue();
@@ -138,7 +138,7 @@ public class Main {
                                 features.add(className + "." + smallPart + re);
                             } else if (re.length() > 0 && !constructor) {
                                 features.add(className + "#" + smallPart + re);
-                            } else {
+                            } else if (!smallPart.equals("init()")) {
                                 features.add(className + ":" + smallPart);
                             }
                         }
