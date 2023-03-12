@@ -15,4 +15,4 @@
 "org.waveapi.api.mics.Side.isClient() -> boolean","✅","✅",
 "org.waveapi.api.Logger#log(java.lang.String) -> void","✅","✅",
 "org.waveapi.api.content.items.WaveItem#addTranslation(java.lang.String,java.lang.String) -> void","✅","✅",
-"org.waveapi.api.content.items.WaveItem#setMaxStackSize(int) -> void","❌","❌",
+"org.waveapi.api.content.items.WaveItem#getMaxStackSize() -> int","❌","✅",
