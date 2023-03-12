@@ -1,0 +1,8 @@
+API:
+  clone: "https://github.com/WaveAPI/API.git"
+  jar: "build/libs/API-1.0-SNAPSHOT.jar"
+implementations:
+  "fabric 1.18.2":
+    clone: "https://github.com/WaveAPI/Fabric-1.18.2-Implementation.git"
+  "forge 1.18.2":
+    clone: "https://github.com/WaveAPI/Forge-1.18.2-Implementation.git"
