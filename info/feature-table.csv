@@ -62,6 +62,7 @@
 "org.waveapi.api.math.Vector3#add(org.waveapi.api.math.Vector3) -> Vector3","✅","✅",
 "org.waveapi.api.world.entity.EntityBase#getYaw() -> float","❌","✅",
 "org.waveapi.api.world.entity.EntityBase#getPitch() -> float","❌","✅",
+"org.waveapi.api.world.entity.living.EntityLiving#getHeadYaw() -> float","❌","✅",
 "org.waveapi.api.world.entity.EntityBase:init()","❌","❌",
 "org.waveapi.api.world.entity.EntityBase#getPosition() -> Vector3","❌","❌",
 "org.waveapi.api.world.entity.living.EntityLiving#getHealth() -> float","❌","❌",
