@@ -23,7 +23,7 @@ public class Main {
         Util.clone(new File("run"), (String) apiSettings.get("clone"), "api");
 
         Util.build(new File(new File("run"), "api"));
-        Set<String> apiFeatures = buildFeatures(new File(new File(new File("run"), "api"), "build/docs/javadoc"));
+        Set<String> apiFeatures = buildFeatures(new File("run/api/build/docs/javadoc"));
         System.out.println(Arrays.toString(apiFeatures.toArray()));
 
         Map<String, Object> impls = (Map<String, Object>) file.get("implementations");
