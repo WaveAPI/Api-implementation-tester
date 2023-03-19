@@ -2,5 +2,8 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/work/Fabric 1.18.2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/work/Forge 1.18.2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/work/api" vcs="Git" />
   </component>
 </project>
