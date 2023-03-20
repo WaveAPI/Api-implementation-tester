@@ -2,3 +2,4 @@ api: "https://github.com/WaveAPI/API.git"
 implementations:
   "Fabric 1.18.2": "https://github.com/WaveAPI/Fabric-1.18.2-Implementation.git"
   "Forge 1.18.2": "https://github.com/WaveAPI/Forge-1.18.2-Implementation.git"
+  "Forge 1.12.2": "https://github.com/WaveAPI/Forge-1.12.2-implementation.git"
