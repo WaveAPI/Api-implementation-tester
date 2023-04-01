@@ -1052,6 +1052,7 @@
 "org.waveapi.api.world.entity.EntityBase#getWorld() -> org.waveapi.api.world.world.World","✅","❌","❌","❌"
 "org.waveapi.api.world.entity.EntityBase#damage(org.waveapi.api.world.entity.DamageSource, float) -> boolean","✅","❌","❌","❌"
 "org.waveapi.api.world.entity.EntityBase#tick() -> void","✅","❌","❌","❌"
+"org.waveapi.api.content.items.block.WaveBlock#setHardness(float) -> org.waveapi.api.content.items.block.WaveBlock","✅","❌","❌","❌"
 "org.waveapi.api.file.texture.Texture:ctor(java.lang.String)","❌","❌","❌","❌"
 "org.waveapi.api.world.entity.living.EntityPlayer:ctor()","❌","❌","❌","❌"
 "org.waveapi.api.world.entity.living.EntityPlayer#sendMessage(org.waveapi.api.misc.Text) -> void","❌","❌","❌","❌"
